@@ -3,4 +3,69 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+/* COMMON */
+.discount, .sustainability, .price, del {
+    font-size: 1.2rem;
+}
+
+/* MAIN */
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80%;
+    margin: 40px auto;
+}
+
+.col {
+    width: calc(100% / 3 - 40px);
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    max-width: 100%;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 2rem;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.discount {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    padding: 10px;
+    background-color: red;
+    color: white;
+}
+
+.sustainability {
+    position: absolute;
+    bottom: 50px;
+    left: 72px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+.sustainability.no-discount {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+
+.price {
+    color: red;
+}
+
