@@ -18,8 +18,8 @@
     --footer-clr: #1A1A1A;
 }
 
-img {
-    max-width: 100%;
+.card-img img {
+    width: 100%;
 }
 
 ul {
