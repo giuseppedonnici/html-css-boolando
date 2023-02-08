@@ -11,6 +11,13 @@
     font-size: 1.2rem;
 }
 
+:root {
+    --header-clr: #FF6900;
+    --red-tag: #FF0000;
+    --green-tag: #008000;
+    --footer-clr: #1A1A1A;
+}
+
 /* MAIN */
 .row-container {
     display: flex;
@@ -69,3 +76,56 @@
     color: red;
 }
 
+.display-none {
+    display: none;
+}
+
+/* hover */
+.card-1:hover .display-none {
+    display: block;
+}
+
+.card-1:hover .display {
+    display: none;
+}
+
+.card-2:hover .display-none {
+    display: block;
+}
+
+.card-2:hover .display {
+    display: none;
+}
+
+
+.card-3:hover .display-none {
+    display: block;
+}
+
+.card-3:hover .display {
+    display: none;
+}
+
+.card-4:hover .display-none {
+    display: block;
+}
+
+.card-4:hover .display {
+    display: none;
+}
+
+.card-5:hover .display-none {
+    display: block;
+}
+
+.card-5:hover .display {
+    display: none;
+}
+
+.card-6:hover .display-none {
+    display: block;
+}
+
+.card-6:hover .display {
+    display: none;
+}
