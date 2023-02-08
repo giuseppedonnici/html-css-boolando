@@ -84,7 +84,7 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     width: 80%;
-    margin: 40px auto;
+    margin: 100px auto;
 }
 
 .col {
@@ -93,10 +93,6 @@ a {
 
 .card-img {
     position: relative;
-}
-
-.card-img img {
-    max-width: 100%;
 }
 
 .heart {
@@ -188,4 +184,34 @@ a {
 
 .card-6:hover .display {
     display: none;
+}
+
+/* FOOTER */
+.footer-container {
+    background-color: var(--footer-clr);
+    color: white;
+    height: 100px;
+    
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-left h2 {
+    padding: 15px 0;
+     
+}
+
+.footer-right h3 {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-right .social {
+    display: flex;
+    font-size: 1.8rem;
 }
