@@ -137,52 +137,11 @@ a {
 }
 
 /* hover */
-.card-1:hover .display-none {
-    display: block;
+.card:hover .display-none {
+    display: inline-block;
 }
 
-.card-1:hover .display {
-    display: none;
-}
-
-.card-2:hover .display-none {
-    display: block;
-}
-
-.card-2:hover .display {
-    display: none;
-}
-
-
-.card-3:hover .display-none {
-    display: block;
-}
-
-.card-3:hover .display {
-    display: none;
-}
-
-.card-4:hover .display-none {
-    display: block;
-}
-
-.card-4:hover .display {
-    display: none;
-}
-
-.card-5:hover .display-none {
-    display: block;
-}
-
-.card-5:hover .display {
-    display: none;
-}
-
-.card-6:hover .display-none {
-    display: block;
-}
-
-.card-6:hover .display {
+.card:hover .display {
     display: none;
 }
 
